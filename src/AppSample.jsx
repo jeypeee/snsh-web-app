@@ -4,12 +4,13 @@ import viteLogo from "/vite.svg";
 //import "./App.css";
 import PaymentForm from "./PaymentForm";
 import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
 
 function AppSample() {
   return (
     <>
-      <PaymentForm />
       <Navbar />
+      <Hero />
     </>
   );
 }

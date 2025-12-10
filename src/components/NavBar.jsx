@@ -1,14 +1,21 @@
-//import "./Navbar.css"
+import "./Navbar.css";
 
 function Navbar() {
   return (
-    <nav>
-      <h1>SNHS</h1>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Contact</a></li>
+    <nav className="navbar">
+      <h1 className="logo">SNHS</h1>
+      <ul className="nav-links">
+        <li>
+          <a href="#">Home</a>
+        </li>
+        <li>
+          <a href="#">About</a>
+        </li>
+        <li>
+          <a href="#">Contact</a>
+        </li>
       </ul>
+      <button>Sign In</button>
     </nav>
   );
 }
