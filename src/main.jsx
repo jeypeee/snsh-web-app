@@ -6,7 +6,6 @@ import PaymentForm from "./PaymentForm.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <PaymentForm />
     <AppSample />
   </StrictMode>
 );
